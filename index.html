@@ -4,13 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./Images/B_Icon.svg" type="image/svg+xml" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li><a href="./Recipies/lasagna.html">Lasagna</a></li>
-      <li><a href="./Recipies/lasagna.html">Pizza</a></li>
-      <li><a href="./Recipies/lasagna.html">Focaccia</a></li>
-    </ul>
+    <div id="circle-orbit-container">
+      <img id="B_Square" src="./Images/B_Square.png" alt="Main_Logo" />
+
+      <div id="outer-orbit">
+        <a href="./Recipies/focaccia.html">
+          <img
+            id="Focaccia_logo"
+            src="./Images/focaccia.png"
+            alt="Focaccia_logo"
+          />
+        </a>
+      </div>
+
+      <div id="middle-orbit">
+        <a href="./Recipies/pizza.html">
+          <img
+            id="Pizza_Logo"
+            src="./Images/pizza-slice.png"
+            alt="Pizza_logo"
+          />
+        </a>
+      </div>
+
+      <div id="inner-orbit">
+        <div class="inner-orbit-cirlces"></div>
+        <a href="./Recipies/lasagna.html">
+          <img
+            id="Lasagna_logo"
+            src="./Images/lasagna.png"
+            alt="Lasagna_logo"
+          />
+        </a>
+      </div>
+    </div>
   </body>
 </html>
